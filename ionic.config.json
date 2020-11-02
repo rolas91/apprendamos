@@ -1,0 +1,7 @@
+{
+  "name": "dehvi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
