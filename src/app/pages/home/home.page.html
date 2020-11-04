@@ -1,0 +1,12 @@
+<app-header title="App-rendamos">
+</app-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let c of components"
+          [routerLink]="c.redirectTo"
+          detail>
+      {{c.name}}
+    </ion-item>
+  </ion-list>
+</ion-content>
